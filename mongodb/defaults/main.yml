@@ -1,0 +1,6 @@
+---
+# defaults file for mongo
+public_signing_key: https://www.mongodb.org/static/pgp/server-6.0.asc
+mongo_repo: deb  http://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse
+packages: mongodb-org
+svc: mongod
